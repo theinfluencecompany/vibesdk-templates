@@ -1,0 +1,13 @@
+[
+  "src/app/page.tsx",
+  "src/app/globals.css",
+  "src/components/game/phaser-game.tsx",
+  "src/components/game/r3f-canvas.tsx",
+  "src/components/game/mobile-game-shell.tsx",
+  "src/lib/fal-client.ts",
+  "src/lib/gestures/use-pinch-pan-gesture.ts",
+  "src/lib/game-dsl/index.ts",
+  "package.json",
+  "next.config.ts",
+  "wrangler.jsonc"
+]

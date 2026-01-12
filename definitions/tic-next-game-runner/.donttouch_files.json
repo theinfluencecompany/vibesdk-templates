@@ -1,0 +1,7 @@
+[
+  "next.config.ts",
+  "open-next.config.ts",
+  "wrangler.jsonc",
+  "src/lib/gestures/pinch-pan-gesture.ts",
+  "src/lib/gestures/use-pinch-pan-gesture.ts"
+]
