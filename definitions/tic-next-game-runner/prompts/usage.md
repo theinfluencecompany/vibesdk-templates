@@ -90,6 +90,10 @@ export default function GamePage() {
 - Use stable logical resolution (e.g., 360×640) with contain/letterbox scaling
 - Clamp DPR for performance: `Math.min(window.devicePixelRatio ?? 1, 2)`
 - Clean up on unmount: `game.destroy(true)`
+- **Animation compatibility**: Different game objects support different tween properties
+  - `Sprite`, `Image`, `Container`: support `x`, `y`, `scale`, `alpha`, `rotation`
+  - `Arc`, `Circle` (shape objects): support `x`, `y`, `radius`, `alpha` (NOT `scale`)
+  - When animating shapes, use their specific properties (e.g., `radius` for circles)
 
 #### React Three Fiber (3D Games)
 
